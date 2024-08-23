@@ -1,5 +1,6 @@
-package io.juanmartinez.joblisting;
+package io.juanmartinez.joblisting.controller;
 
+import io.juanmartinez.joblisting.PostRepository;
 import io.juanmartinez.joblisting.model.Post;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
